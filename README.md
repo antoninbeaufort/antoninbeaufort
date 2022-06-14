@@ -1,5 +1,5 @@
-### Hi
+### Hi there 👋
 
-- Web developer
-- Deno/NodeJS
-- Vue/React
+- Web engineer passionate about serverless edge computing 🚀
+- Deno 🦕 / NodeJS 
+- Vue / React 
