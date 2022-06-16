@@ -58,7 +58,7 @@ export default function Home() {
         </a>{" "}
         or email me at{" "}
         <a href="mailto:contact@antoninbeaufort.fr" class={linkClass}>
-          antoninbeaufort.fr
+          contact@antoninbeaufort.fr
         </a>
         .
       </div>
