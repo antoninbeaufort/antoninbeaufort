@@ -12,8 +12,7 @@ export default function Home() {
       <Head>
         <title>Home - Antonin Beaufort</title>
         <meta name="description" content="Software engineer. 🌍" />
-        <link rel="alternate icon" type="image/png" href="/favicon.png" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
       <div class={tw`flex flex(col sm:row) gap-8`}>
         <img

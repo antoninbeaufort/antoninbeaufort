@@ -69,8 +69,7 @@ export default function CVPage() {
       <Head>
         <title>CV - Antonin Beaufort</title>
         <meta name="description" content="Software engineer. 🌍" />
-        <link rel="alternate icon" type="image/png" href="/favicon.png" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
       <div class={tw`mb-24 space-y(8 md:12)`}>
         <h1 class={tw`leading-tight text(gray-900 4xl md:5xl) font-bold`}>
