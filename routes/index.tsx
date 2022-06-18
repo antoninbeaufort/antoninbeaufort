@@ -16,8 +16,21 @@ export default function Home() {
       </Head>
       <div class={tw`flex flex(col sm:row) gap-8`}>
         <picture>
-          <source srcset="/me.avif" type="image/avif" />
-          <source srcset="/me.webp" type="image/webp" />
+          <source
+            srcset="/me96.avif 96w, /me.avif"
+            sizes="(max-width: 767px) 96px, (min-width: 768px) 128px"
+            type="image/avif"
+          />
+          <source
+            srcset="/me96.webp 96w, /me.webp"
+            sizes="(max-width: 767px) 96px, (min-width: 768px) 128px"
+            type="image/webp"
+          />
+          <source
+            srcset="/me96.png"
+            media="(max-width: 767px)"
+            type="image/png"
+          />
           <img
             src="/favicon.png"
             alt="Antonin Beaufort"
