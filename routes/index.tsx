@@ -15,13 +15,17 @@ export default function Home() {
         <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
       <div class={tw`flex flex(col sm:row) gap-8`}>
-        <img
-          src="/me.jpg"
-          alt="Antonin Beaufort"
-          width="500"
-          height="500"
-          class={tw`w(24 md:32) h(24 md:32) rounded-full`}
-        />
+        <picture>
+          <source srcset="/me.avif" type="image/avif" />
+          <source srcset="/me.webp" type="image/webp" />
+          <img
+            src="/favicon.png"
+            alt="Antonin Beaufort"
+            width="128"
+            height="128"
+            class={tw`w(24 md:32) h(24 md:32) rounded-full`}
+          />
+        </picture>
         <div class={tw`flex flex-col justify-center`}>
           <p class={tw`leading-tight text(gray-900 2xl md:3xl)`}>Hello, I'm</p>
           <h1 class={tw`leading-tight text(gray-900 4xl md:5xl) font-semibold`}>

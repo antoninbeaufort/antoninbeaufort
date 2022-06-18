@@ -7,10 +7,10 @@ export function Footer() {
   return (
     <div class={tw`flex gap(4 md:8)`}>
       <img
-        src="/me.jpg"
+        src="/favicon.png"
         alt="Antonin Beaufort"
-        width="500"
-        height="500"
+        width="128"
+        height="128"
         class={tw`w(24 md:32) h(24 md:32) rounded-full`}
       />
       <div class={tw`flex flex-col justify-center gap-2`}>
