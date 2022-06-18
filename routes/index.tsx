@@ -2,6 +2,7 @@
 import { h, Head } from "$fresh/runtime.ts";
 import { tw } from "../utils/twind.ts";
 
+import { ProfilePicture } from "../components/ProfilePicture.tsx";
 import { SocialLinks } from "../components/SocialLinks.tsx";
 
 export default function Home() {
@@ -15,30 +16,7 @@ export default function Home() {
         <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
       <div class={tw`flex flex(col sm:row) gap-8`}>
-        <picture>
-          <source
-            srcset="/me96.avif 96w, /me.avif"
-            sizes="(max-width: 767px) 96px, (min-width: 768px) 128px"
-            type="image/avif"
-          />
-          <source
-            srcset="/me96.webp 96w, /me.webp"
-            sizes="(max-width: 767px) 96px, (min-width: 768px) 128px"
-            type="image/webp"
-          />
-          <source
-            srcset="/me96.png"
-            media="(max-width: 767px)"
-            type="image/png"
-          />
-          <img
-            src="/favicon.png"
-            alt="Antonin Beaufort"
-            width="128"
-            height="128"
-            class={tw`w(24 md:32) h(24 md:32) rounded-full`}
-          />
-        </picture>
+        <ProfilePicture />
         <div class={tw`flex flex-col justify-center`}>
           <p class={tw`leading-tight text(gray-900 2xl md:3xl)`}>Hello, I'm</p>
           <h1 class={tw`leading-tight text(gray-900 4xl md:5xl) font-semibold`}>
