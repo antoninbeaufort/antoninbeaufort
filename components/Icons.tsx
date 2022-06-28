@@ -1,5 +1,5 @@
 /** @jsx h */
-import { ComponentType, h } from "$fresh/runtime.ts";
+import { ComponentType, h } from "preact";
 import { tw } from "@twind";
 
 export function LinkedInIcon() {
