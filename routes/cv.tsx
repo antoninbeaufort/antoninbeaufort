@@ -1,6 +1,6 @@
 /** @jsx h */
 import { h, Head } from "$fresh/runtime.ts";
-import { tw } from "../utils/twind.ts";
+import { tw } from "@twind";
 
 import { Footer } from "../components/Footer.tsx";
 

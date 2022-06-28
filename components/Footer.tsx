@@ -1,6 +1,6 @@
 /** @jsx h */
 import { h } from "$fresh/runtime.ts";
-import { tw } from "../utils/twind.ts";
+import { tw } from "@twind";
 
 import { ProfilePicture } from "./ProfilePicture.tsx";
 import { SocialLinks } from "./SocialLinks.tsx";

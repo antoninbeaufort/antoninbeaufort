@@ -1,6 +1,6 @@
 /** @jsx h */
 import { h } from "$fresh/runtime.ts";
-import { tw } from "../utils/twind.ts";
+import { tw } from "@twind";
 import { GitHubIcon, LinkedInIcon, IconLink } from "./Icons.tsx";
 
 export function SocialLinks(props: { class?: string; tight?: boolean }) {
