@@ -69,25 +69,25 @@ export function Navbar() {
         <div class={tw`md:hidden border-t border-gray-400 mt-2 pt-2`}>
           <a
             href="#about"
-            class={tw`text-gray(900 dark:300 dark:hover:200 hover:800) mx-4`}
+            class={tw`text-gray(900 dark:300 dark:hover:200 hover:800) mx-3`}
           >
             About
           </a>
           <a
             href="#experience"
-            class={tw`text-gray(900 dark:300 dark:hover:200 hover:800) mx-4`}
+            class={tw`text-gray(900 dark:300 dark:hover:200 hover:800) mx-3`}
           >
             Experience
           </a>
           <a
             href="#projects"
-            class={tw`text-gray(900 dark:300 dark:hover:200 hover:800) mx-4`}
+            class={tw`text-gray(900 dark:300 dark:hover:200 hover:800) mx-3`}
           >
             Projects
           </a>
           <a
             href="#contact"
-            class={tw`text-gray(900 dark:300 dark:hover:200 hover:800) mx-4`}
+            class={tw`text-gray(900 dark:300 dark:hover:200 hover:800) mx-3`}
           >
             Contact
           </a>
