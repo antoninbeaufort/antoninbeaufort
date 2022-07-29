@@ -36,11 +36,12 @@ export function IconLink(props: {
   href: string;
   title: string;
   rel?: string;
+  class?: string;
   icon: ComponentType;
 }) {
   return (
     <a
-      class={tw`text-gray(500 hover:900) transition duration-75 ease-in-out`}
+      class={tw`${props.class} text-gray(500 dark:hover:400 hover:900) transition duration-75 ease-in-out`}
       href={props.href}
       title={props.title}
       rel={props.rel}

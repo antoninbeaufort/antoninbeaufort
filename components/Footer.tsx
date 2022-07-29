@@ -10,12 +10,14 @@ export function Footer() {
     <div class={tw`flex gap(4 md:8)`}>
       <ProfilePicture />
       <div class={tw`flex flex-col justify-center gap-2`}>
-        <p class={tw`leading-tight text(gray-900 2xl md:4xl) font-bold`}>
+        <p
+          class={tw`leading-tight text(gray-900 dark:white 2xl md:4xl) font-bold`}
+        >
           <a href="/" class={tw`hover:underline focus:underline`}>
             Antonin Beaufort
           </a>
         </p>
-        <p class={tw`leading-tight text(gray-900 base md:xl)`}>
+        <p class={tw`leading-tight text(gray-900 dark:white base md:xl)`}>
           Software engineer. 🌍&nbsp;
         </p>
         <SocialLinks class="mt-1" tight />
