@@ -6,7 +6,7 @@ import { GitHubIcon, LinkedInIcon, IconLink } from "./Icons.tsx";
 export function SocialLinks(props: { class?: string; tight?: boolean }) {
   return (
     <div
-      class={tw`lg:fixed my-2 lg:mb-0 lg:flex-col items-center bottom-0 left-16 z-50 lg:w-12 w-full justify-center lg:justify-end text-white flex gap-4`}
+      class={tw`lg:fixed mt-2 mb-6 lg:mb-0 lg:flex-col items-center bottom-0 left-16 z-50 lg:w-12 w-full justify-center lg:justify-end text-white flex gap-4`}
     >
       <IconLink
         href="https://github.com/antoninbeaufort"
