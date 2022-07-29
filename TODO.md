@@ -1,0 +1,1 @@
+-  [ ] Replace projects with cards and tech stack icons (+GitHub link) (https://tailwindui.com/components/application-ui/lists/grid-lists)
